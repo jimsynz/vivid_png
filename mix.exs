@@ -36,7 +36,7 @@ defmodule Vivid.PNG.Mixfile do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:png,   "~> 0.1.1"},
-      {:vivid, ">= 0.2.0"}
+      {:vivid, ">= 0.3.0"}
     ]
   end
 end
