@@ -1,7 +1,10 @@
 defmodule Vivid.PNG.ShapeToPng do
-  use Vivid
-  alias Vivid.PNG
+  alias Vivid.{PNG, Shape, Bounds, Transform, Frame}
 
+  @moduledoc false
+
+  @doc false
+  @spec to_png(Shape.t, Path.t) :: :ok | {:error, any}
   def to_png(shape, file) do
     bounds = Bounds.bounds(shape)
     width  = bounds |> Bounds.width  |> round |> Kernel.+(3)
