@@ -1,7 +1,14 @@
 defimpl Vivid.PNG, for: Vivid.Buffer do
-  alias Vivid.PNG.Palette
   alias Vivid.{Buffer, RGBA}
 
+  @moduledoc """
+  Convert a Vivid buffer to a PNG file.
+  """
+
+  @doc """
+  Convert a Vivid buffer into a PNG file.
+  """
+  @spec to_png(Buffer.t, Path.t) :: :ok | {:error, any}
   def to_png(buffer, path) do
     with {:ok, file} <- File.open(path, [:write]),
          png         <- create_png(buffer, file),

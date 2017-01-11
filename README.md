@@ -22,3 +22,24 @@ is included in the `LICENSE` file in this distribution.
 ## Documentation
 
 Documentations can be found at [https://hexdocs.pm/vivid_png](https://hexdocs.pm/vivid_png).
+
+## Status
+
+```elixir
+use Vivid
+alias Vivid.PNG
+
+frame  = Frame.init(300,200)
+text   = Font.line("seems to work")
+         |> Transform.fill(frame)
+         |> Transform.center(frame)
+         |> Transform.apply
+circle = Circle.init(Point.init(100, 100), 50)
+box    = Box.init(Point.init(250,150), Point.init(275, 175))
+
+frame
+|> Frame.push(text,   RGBA.black)
+|> Frame.push(circle, RGBA.init(1,0,0,0.5))
+|> Frame.push(box,    RGBA.init(0,0,1, 0.75))
+|> PNG.to_png("example.png")
+```
