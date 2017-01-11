@@ -43,3 +43,5 @@ frame
 |> Frame.push(box,    RGBA.init(0,0,1, 0.75))
 |> PNG.to_png("example.png")
 ```
+
+![example.png](https://raw.githubusercontent.com/jamesotron/vivid_png.ex/master/example.png)
