@@ -1,4 +1,4 @@
 %{"earmark": {:hex, :earmark, "1.0.3", "89bdbaf2aca8bbb5c97d8b3b55c5dd0cff517ecc78d417e87f1d0982e514557b", [:mix], []},
   "ex_doc": {:hex, :ex_doc, "0.14.5", "c0433c8117e948404d93ca69411dd575ec6be39b47802e81ca8d91017a0cf83c", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
   "png": {:hex, :png, "0.1.1", "57eeab907d4c2b78d4c3803bc355af025248db9ebd612e4275c3cab65b809171", [:rebar], []},
-  "vivid": {:hex, :vivid, "0.2.1", "bd237d1bf93eb3ccda06a40d5160be23f91e475cff6307f9ab96f19ffa426e2c", [:mix], []}}
+  "vivid": {:hex, :vivid, "0.3.0", "98c6203e6c4f2e791530645529d7a767387a7d949f05be282d06de85b5dec898", [:mix], []}}
