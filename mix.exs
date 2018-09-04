@@ -2,14 +2,16 @@ defmodule Vivid.PNG.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :vivid_png,
-     version: "0.1.0",
-     description: description,
-     elixir: "~> 1.3",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     package: package,
-     deps: deps()]
+    [
+      app: :vivid_png,
+      version: "0.2.0",
+      description: description(),
+      elixir: "~> 1.3",
+      build_embedded: Mix.env() == :prod,
+      start_permanent: Mix.env() == :prod,
+      package: package(),
+      deps: deps()
+    ]
   end
 
   def application do
@@ -24,10 +26,10 @@ defmodule Vivid.PNG.Mixfile do
 
   def package do
     [
-      maintainers: [ "James Harton <james@automat.nz>" ],
-      licenses: [ "MIT" ],
+      maintainers: ["James Harton <james@automat.nz>"],
+      licenses: ["MIT"],
       links: %{
-        "Source" => "https://github.com/jamesotron/vivid_png.ex"
+        "Source" => "https://gitlab.com/jimsy/vivid_png.ex"
       }
     ]
   end
@@ -35,8 +37,10 @@ defmodule Vivid.PNG.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:png,   "~> 0.1.1"},
-      {:vivid, ">= 0.3.0"}
+      {:credo, "~> 0.10", only: ~w(dev test)a, runtime: false},
+      {:inch_ex, "~> 1.0", only: ~w(dev test)a, runtime: false},
+      {:png, "~> 0.1"},
+      {:vivid, "~> 0.4"}
     ]
   end
 end

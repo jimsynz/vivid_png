@@ -8,7 +8,7 @@ defimpl Vivid.PNG, for: Vivid.Frame do
   @doc """
   Convert a Vivid frame into a PNG file.
   """
-  @spec to_png(Frame.t, Path.t) :: :ok | {:error, any}
+  @spec to_png(Frame.t(), Path.t()) :: :ok | {:error, any}
   def to_png(frame, file) do
     frame
     |> Frame.buffer(:horizontal)
