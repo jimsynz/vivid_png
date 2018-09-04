@@ -27,6 +27,10 @@ audit:
   script:
     - mix hex.audit
 
+format:
+  script:
+    - mix format --check-formatted
+
 # inch:
 #   script:
 #      - mix inch --pedantic
