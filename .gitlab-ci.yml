@@ -23,6 +23,10 @@ credo:
   script:
      - mix credo --strict
 
+audit:
+  script:
+    - mix hex.audit
+
 # inch:
 #   script:
 #      - mix inch --pedantic
