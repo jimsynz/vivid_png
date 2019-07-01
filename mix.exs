@@ -37,8 +37,8 @@ defmodule Vivid.PNG.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:credo, "~> 0.10", only: ~w(dev test)a, runtime: false},
-      {:inch_ex, "~> 1.0", only: ~w(dev test)a, runtime: false},
+      {:credo, "~> 1.1", only: ~w(dev test)a, runtime: false},
+      {:inch_ex, "~> 2.0", only: ~w(dev test)a, runtime: false},
       {:png, "~> 0.1"},
       {:vivid, "~> 0.4"}
     ]
