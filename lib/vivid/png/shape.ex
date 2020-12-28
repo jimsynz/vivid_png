@@ -1,5 +1,5 @@
 defmodule Vivid.PNG.ShapeToPng do
-  alias Vivid.{Bounds, Frame, PNG, Shape, Transform}
+  alias Vivid.{Bounds, Frame, PNG, RGBA, Shape, Transform}
 
   @moduledoc false
 
