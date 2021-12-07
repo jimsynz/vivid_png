@@ -13,8 +13,7 @@ defimpl Vivid.PNG, for: Vivid.Buffer do
     with {:ok, file} <- File.open(path, [:write]),
          png <- create_png(buffer, file),
          :ok <- :png.close(png),
-         :ok <- File.close(file),
-         do: :ok
+         do: File.close(file)
   end
 
   defp config(%Buffer{rows: height, columns: width}, file) do
