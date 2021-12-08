@@ -1,12 +1,3 @@
 {
-  "extends": [
-    "config:base",
-    ":semanticCommits",
-    ":semanticCommitTypeAll(chore)"
-  ],
-  "enabledManagers": [
-    "dockerfile",
-    "gitlabci",
-    "mix"
-  ]
+  "extends": ["gitlab>jimsy/renovate"]
 }
