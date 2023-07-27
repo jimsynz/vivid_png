@@ -32,7 +32,7 @@ defimpl Vivid.PNG, for: Vivid.Buffer do
 
     buffer
     |> Stream.map(&colour_to_binary(&1))
-    |> Stream.chunk(width)
+    |> Stream.chunk_every(width)
     |> Stream.map(&Enum.join(&1))
     |> Enum.reverse()
     |> Enum.reduce(png, &:png.append(&2, {:row, &1}))

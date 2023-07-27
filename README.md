@@ -1,5 +1,7 @@
 # Vivid.PNG
 
+[![Build Status](https://drone.harton.nz/api/badges/james/vivid_png/status.svg?ref=refs/heads/main)](https://drone.harton.nz/james/vivid_png)
+
 Vivid.PNG adds PNG generating support to [Vivid](https://hex.pm/packages/vivid),
 a 2D rendering library implemented 100% in Elixir with no dependencies.
 
@@ -44,4 +46,4 @@ frame
 |> PNG.to_png("example.png")
 ```
 
-![example.png](https://raw.githubusercontent.com/jamesotron/vivid_png.ex/main/example.png)
+![example.png](https://code.harton.nz/james/vivid_png/raw/branch/main/example.png)
