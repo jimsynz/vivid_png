@@ -1,3 +1,6 @@
 {
-  "extends": ["gitlab>jimsy/renovate"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>renovate/renovate"
+  ]
 }
