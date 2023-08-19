@@ -2,8 +2,12 @@
 
 [![Build Status](https://drone.harton.nz/api/badges/james/vivid_png/status.svg?ref=refs/heads/main)](https://drone.harton.nz/james/vivid_png)
 
-Vivid.PNG adds PNG generating support to [Vivid](https://hex.pm/packages/vivid),
+`Vivid.PNG` adds PNG generating support to [Vivid](https://hex.pm/packages/vivid),
 a 2D rendering library implemented 100% in Elixir with no dependencies.
+
+## Accessing on GitHub
+
+This repository is [mirrored to GitHub](https://github.com/jimsynz/vivid_png.ex) from it's home on [code.harton.nz](https://code.harton.nz/james/vivid_png).  Feel free to raise issues, etc, on GitHub.
 
 ## Installation
 
