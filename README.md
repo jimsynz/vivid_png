@@ -7,7 +7,7 @@ a 2D rendering library implemented 100% in Elixir with no dependencies.
 
 ## Accessing on GitHub
 
-This repository is [mirrored to GitHub](https://github.com/jimsynz/vivid_png.ex) from it's home on [code.harton.nz](https://code.harton.nz/james/vivid_png).  Feel free to raise issues, etc, on GitHub.
+This repository is [mirrored to GitHub](https://github.com/jimsynz/vivid_png.ex) from it's home on [harton.dev](https://harton.dev/james/vivid_png).  Feel free to raise issues, etc, on GitHub.
 
 ## Installation
 
@@ -50,4 +50,4 @@ frame
 |> PNG.to_png("example.png")
 ```
 
-![example.png](https://code.harton.nz/james/vivid_png/raw/branch/main/example.png)
+![example.png](https://harton.dev/james/vivid_png/raw/branch/main/example.png)

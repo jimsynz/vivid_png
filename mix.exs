@@ -32,7 +32,7 @@ defmodule Vivid.PNG.Mixfile do
       maintainers: ["James Harton <james@harton.nz>"],
       licenses: ["MIT"],
       links: %{
-        "Source" => "https://code.harton.nz/james/vivid_png"
+        "Source" => "https://harton.dev/james/vivid_png"
       }
     ]
   end
