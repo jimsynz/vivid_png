@@ -13,7 +13,12 @@ defmodule Vivid.PNG.Mixfile do
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       package: package(),
-      deps: deps()
+      deps: deps(),
+      source_url: "https://harton.dev/james/vivid_png",
+      homepage_url: "https://harton.dev/james/vivid_png",
+      docs: [
+        extras: ["README.md", "CHANGELOG.md"]
+      ]
     ]
   end
 
@@ -32,7 +37,10 @@ defmodule Vivid.PNG.Mixfile do
       maintainers: ["James Harton <james@harton.nz>"],
       licenses: ["MIT"],
       links: %{
-        "Source" => "https://harton.dev/james/vivid_png"
+        "Source" => "https://harton.dev/james/vivid_png",
+        "GitHub" => "https://github.com/jimsynz/vivid_png",
+        "Changelog" => "https://docs.harton.nz/james/vivid_png/changelog.html",
+        "Sponsor" => "https://github.com/sponsors/jimsynz"
       }
     ]
   end

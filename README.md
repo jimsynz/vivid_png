@@ -1,33 +1,43 @@
 # Vivid.PNG
 
-[![Build Status](https://drone.harton.nz/api/badges/james/vivid_png/status.svg?ref=refs/heads/main)](https://drone.harton.nz/james/vivid_png)
+[![Build Status](https://drone.harton.dev/api/badges/james/vivid_png/status.svg?ref=refs/heads/main)](https://drone.harton.dev/james/vivid_png)
+[![Hex.pm](https://img.shields.io/hexpm/v/vivid_png.svg)](https://hex.pm/packages/vivid_png)
 
 `Vivid.PNG` adds PNG generating support to [Vivid](https://hex.pm/packages/vivid),
 a 2D rendering library implemented 100% in Elixir with no dependencies.
 
 ## Accessing on GitHub
 
-This repository is [mirrored to GitHub](https://github.com/jimsynz/vivid_png.ex) from it's home on [harton.dev](https://harton.dev/james/vivid_png).  Feel free to raise issues, etc, on GitHub.
+This repository is [mirrored to GitHub](https://github.com/jimsynz/vivid_png.ex) from it's home on [harton.dev](https://harton.dev/james/vivid_png). Feel free to raise issues, etc, on GitHub.
 
 ## Installation
 
-[Available in Hex](https://hex.pm/packages/vivid_png), the package can be installed
-by adding `vivid_png` to your list of dependencies in `mix.exs`:
+`Vivid.PNG` is [available in Hex](https://hex.pm/packages/vivid_png), the
+package can be installed by adding `vivid_png` to your list of dependencies in
+`mix.exs`:
 
 ```elixir
 def deps do
-  [{:vivid_png, "~> 0.2.0"}]
+  [
+    {:vivid_png, "~> 0.2.0"}
+  ]
 end
 ```
+
+Documentation for the latest release can be found on
+[HexDocs](https://hexdocs.pm/vivid_png) and for the `main` branch on
+[docs.harton.nz](https://docs.harton.nz/james/vivid_png).
+
+## Github Mirror
+
+This repository is mirrored [on Github](https://github.com/jimsynz/vivid_png)
+from it's primary location [on my Forejo instance](https://harton.dev/james/vivid_png).
+Feel free to raise issues and open PRs on Github.
 
 ## License
 
 Source code is licensed under the terms of the MIT license, the text of which
 is included in the `LICENSE` file in this distribution.
-
-## Documentation
-
-Documentations can be found at [https://hexdocs.pm/vivid_png](https://hexdocs.pm/vivid_png).
 
 ## Status
 
