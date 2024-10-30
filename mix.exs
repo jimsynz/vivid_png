@@ -51,7 +51,7 @@ defmodule Vivid.PNG.Mixfile do
     [
       {:credo, "~> 1.6", devtestopts},
       {:dialyxir, "~> 1.3", devtestopts},
-      {:doctor, "~> 0.21.0", devtestopts},
+      {:doctor, "~> 0.22.0", devtestopts},
       {:ex_check, "~> 0.16.0", devtestopts},
       {:ex_doc, ">= 0.28.1", devtestopts},
       {:git_ops, "~> 2.4", devtestopts},
