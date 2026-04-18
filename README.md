@@ -1,6 +1,5 @@
 # Vivid.PNG
 
-[![Build Status](https://drone.harton.dev/api/badges/james/vivid_png/status.svg?ref=refs/heads/main)](https://drone.harton.dev/james/vivid_png)
 [![Hex.pm](https://img.shields.io/hexpm/v/vivid_png.svg)](https://hex.pm/packages/vivid_png)
 
 `Vivid.PNG` adds PNG generating support to [Vivid](https://hex.pm/packages/vivid),
@@ -25,8 +24,7 @@ end
 ```
 
 Documentation for the latest release can be found on
-[HexDocs](https://hexdocs.pm/vivid_png) and for the `main` branch on
-[docs.harton.nz](https://docs.harton.nz/james/vivid_png).
+[HexDocs](https://hexdocs.pm/vivid_png).
 
 ## Github Mirror
 
