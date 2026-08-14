@@ -57,7 +57,7 @@ defmodule Vivid.PNG.Mixfile do
       {:git_ops, "~> 2.4", devtestopts},
       {:mix_audit, "~> 2.1", devtestopts},
       {:png, "~> 0.2"},
-      {:vivid, "~> 1.0"}
+      {:vivid, "~> 0.4"}
     ]
   end
 end
